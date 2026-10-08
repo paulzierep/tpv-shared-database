@@ -1409,7 +1409,7 @@ tools:
     rules:
     - id: tpvdb_drep_dereplicate_medium_input_rule
       if: input_size > 10
-      mem: 32
+      mem: 20
     - id: tpvdb_drep_dereplicate_large_input_rule
       if: input_size > 16
       mem: 35
