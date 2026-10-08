@@ -1408,7 +1408,7 @@ tools:
     mem: 16
     rules:
     - id: tpvdb_drep_dereplicate_medium_input_rule
-      if: input_size > 4
+      if: input_size > 10
       mem: 32
     - id: tpvdb_drep_dereplicate_large_input_rule
       if: input_size > 16
