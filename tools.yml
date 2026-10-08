@@ -1412,7 +1412,7 @@ tools:
       mem: 32
     - id: tpvdb_drep_dereplicate_large_input_rule
       if: input_size > 16
-      mem: 48
+      mem: 35
   toolshed.g2.bx.psu.edu/repos/iuc/edger/edger/.*:
     mem: 19.0
   toolshed.g2.bx.psu.edu/repos/iuc/egsea/egsea/.*:
